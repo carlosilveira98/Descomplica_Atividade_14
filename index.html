@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atividade Prática</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <header class="bg-dark text-light py-4">
+    <div class="container">
+      <h1>Atividade Prática</h1>
+      <nav>
+        <ul class="list-inline">
+          <li class="list-inline-item"><a href="#">Início</a></li>
+          <li class="list-inline-item"><a href="#">Sobre</a></li>
+          <li class="list-inline-item"><a href="#">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="py-5">
+    <div class="container">
+      <section>
+        <h2>Seção 1</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla felis ligula, dignissim a sodales nec, ultricies eget dolor.</p>
+      </section>
+
+      <section>
+        <h2>Seção 2</h2>
+        <p>Phasellus eu aliquet libero. Curabitur porta mattis turpis, vitae consequat turpis lacinia at. Integer nec libero sed leo fermentum cursus.</p>
+      </section>
+
+      <section>
+        <h2>Seção 3</h2>
+        <p>Vestibulum sed libero vitae enim interdum dictum. Donec non sagittis justo, a tincidunt quam.</p>
+      </section>
+    </div>
+  </main>
+
+  <footer class="bg-dark text-light py-3">
+    <div class="container">
+      <p>&copy; <span id="currentYear"></span> Minha Empresa</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("currentYear").innerHTML = new Date().getFullYear();
+  </script>
+</body>
+</html>
